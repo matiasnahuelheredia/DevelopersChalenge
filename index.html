@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>DEVELOPERS CHALENGE</title>
+<link type ="text/css" rel="stylesheet" href="css/intro.css"/>
+
+<script type="text/javascript">
+        function desplegarinicio()
+        {
+        var menuinicio = new Array("Programas","Salir","Entrar");
+        document.getElementById('inicio').innerHTML = "Inicio <div class='desplegarfrom' id ='desplegarinicio'></div>";
+        //desplega el menu inicio
+        for (var i=0;i < 3;i++)
+        {
+        document.getElementById('desplegarinicio').innerHTML += "<div class='elementoMenu' id='inicio_"+menuinicio[i]+"'><a href='"+menuinicio[i]+".php'>"+menuinicio[i]+"</a></div></br>";
+        }
+
+
+        }
+        	function cerrardespliegue()
+        	{
+		document.getElementById('inicio').innerHTML="Inicio";
+		}
+        
+        </script>
+
+
+</head>
+
+<body>
+<div class="contenedorprincipal">
+
+	<div id="zonainferior" >
+                <textarea disabled name="textarea" id="zonaDeEscritura" value="">
+
+                </textarea>
+	</div>
+	<div id="barrareto" >
+        </div>
+        </div>
+	<div id="barraAbajo" >
+	
+        </div>
+	<div id="barra" >
+		<div class="elementoMenu" id="inicio" onclick="cerrardespliegue();desplegarinicio();" >		
+		Inicio 
+		</div>
+                <div class="elementoMenu" id="retos" onclick="cerrardespliegue();">
+		Retos
+		</div>
+		<div class="elementoMenu" id="ayuda" onclick="cerrardespliegue();" >
+		Ayuda
+		</div>
+                <div class="elementoMenu" id="pedir" onclick="cerrardespliegue();" >
+		Pedir al buffet
+		</div>
+	</div>
+        
+        
+</p>
+
+	
+		
+        
+
+</div>
+
+
+
+
+</body>
+
+
+</html>

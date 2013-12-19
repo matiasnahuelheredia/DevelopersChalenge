@@ -1,0 +1,87 @@
+body
+{
+background-color:darkblue; 
+margin:0 0 0 0;
+}
+
+#barra
+{
+background-color:lightgray;
+font-family:"Times New Roman", Times, serif;
+font-weight: bold;
+height:20px;
+width:100%;
+float:top;
+position:fixed;
+}
+
+#barrareto
+{
+border-style:double;
+background-color:green; 
+color:white;
+position:absolute;
+margin:20 0 0 81%;
+height:90%;
+width:18%;
+}
+
+#zonainferior
+{
+border-style:double;
+background-color:darkblue; 
+color:white;
+margin:20 0 0 0;
+height:80%;
+width:80%;
+position:absolute;
+
+}
+
+.elementoMenu:hover
+{
+color:blue;
+}
+
+
+
+.elementoMenu
+{
+color:black;
+margin:0 20 0 0;
+float:left;
+}
+.elementoMenu:first-letter
+{color:red;
+
+}
+
+#barraAbajo
+{
+color:white;
+background-color:red;
+float:bottom;
+border-style:double;
+height:4%;
+width:80%;
+position:absolute;
+margin:42% 0 0 0;
+}
+
+#zonaDeEscritura
+{
+border-style:none;
+color:yellow;
+height:100%;
+width:100%;
+background-color:darkblue;
+font-weight: bold;
+}
+
+.desplegarfrom
+{
+border-style:double;
+color:white;
+width:200px;
+background-color:darkblue;
+}
